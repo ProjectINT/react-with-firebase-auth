@@ -158,6 +158,7 @@ const withFirebaseAuth = <P extends object>({
         signInAnonymously: this.signInAnonymously,
         setError: this.setError,
         signOut: this.signOut,
+        firebaseAppAuth,
       };
 
       render() {
